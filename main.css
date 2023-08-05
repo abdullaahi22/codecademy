@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 1000px;
+    background-color: #eee;
+    
+}
+header {
+    text-align: center;
+    border: 6px solid rgb(201, 226, 39);
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    left: 300px;
+    
+}
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dodgerblue;
+    margin:5px;
+    position: relative;
+    top:50px;
+
+}
+
+#colours,
+#fonts,
+#text_styles{
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 100px;
+    position: relative;
+    top: 50px;
+    margin: 10px;
+    
+    
+}
+#colours {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.colour-box {
+    min-height: 100px;
+    max-height: fit-content;
+    overflow: scroll;
+    width: 30%;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 10px auto;
+    position: relative;
+    top: -80px;
+    left: -70px;
+    transition: transform .2s;
+    margin: 20px;
+    padding: 75px;
+}
+.colour-box:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.colour-label {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.cool-blue {
+    background-color: #2d5dcc;
+    
+}
+.ultraviolet {
+    background-color: #6B5B95;
+}
+
+.greenery {
+    background-color: #88B04B;
+}
+
+.serenity {
+    background-color: #92A8D1;
+}
+.rose-quartz{
+    background-color: #F7CAC9;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    width: 40%;
+    display:inline-block;
+    margin: 10px;
+    position: relative;
+    left: -70px;
+    top:-70px;
+    transition: transform .2s;
+}
+h4 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+.barlow {
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+
+.lato {
+    font-family: 'lato';
+    font-size: 20px;
+}
+
+.open-sans {
+    font-family: 'lato';
+    font-size: 20px;
+}
+.h1 h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+.h2 h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.p p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
